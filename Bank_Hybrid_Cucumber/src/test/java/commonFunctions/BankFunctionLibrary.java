@@ -28,10 +28,12 @@ public class BankFunctionLibrary {
 		{
 			mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Lvalue)));
 		}
+		
 		if (LType.equalsIgnoreCase("name")) 
 		{
 			mywait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(Lvalue)));
-		}
+		}	
+		
 	}
 	
 	public static void typeAction(String LType,String Lvalue, String TestData) {

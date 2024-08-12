@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 9s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;222&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-12T10:38:49 IST" name="Default suite" finished-at="2024-08-12T10:39:19 IST" duration-ms="29835">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:primusRunner.PrimusRunner@7188af83]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-12T10:38:49 IST" name="Default test" finished-at="2024-08-12T10:39:19 IST" duration-ms="29835">
+      <class name="primusRunner.PrimusRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:primusRunner.PrimusRunner@7188af83]" started-at="2024-08-12T10:38:49 IST" name="setUpClass" finished-at="2024-08-12T10:38:49 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:primusRunner.PrimusRunner@7188af83]" started-at="2024-08-12T10:38:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-12T10:39:02 IST" duration-ms="12189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As admin i want to Login with Different Username & Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Primus Banking Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 9s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (PASSED : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:primusRunner.PrimusRunner@7188af83]" started-at="2024-08-12T10:39:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-12T10:39:10 IST" duration-ms="8464" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As admin i want to Login with Different Username & Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Primus Banking Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14283711-6240-4e38-bbc2-8b9412bc8814, findElement {value=//a[@href='http://primusbank.qedgetech.com'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13492, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 14283711-6240-4e38-bbc2-8b9412bc8814]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14283711-6240-4e38-bbc2-8b9412bc8814, findElement {value=//a[@href='http://primusbank.qedgetech.com'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13492, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 14283711-6240-4e38-bbc2-8b9412bc8814
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+at ✽.wait for logout button with "xpath" and "//a[@href='http://primusbank.qedgetech.com']"(./FeatureFiles/PrimusLogin.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:primusRunner.PrimusRunner@7188af83]" started-at="2024-08-12T10:39:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-12T10:39:19 IST" duration-ms="8559" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As admin i want to Login with Different Username & Password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Primus Banking Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6cf19ba7-219c-4ca7-9a65-7a4e53961338, findElement {value=//a[@href='http://primusbank.qedgetech.com'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2644, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6cf19ba7-219c-4ca7-9a65-7a4e53961338]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss": 
+Build info: version: '4.18.0', revision: 'b6bf9de7cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6cf19ba7-219c-4ca7-9a65-7a4e53961338, findElement {value=//a[@href='http://primusbank.qedgetech.com'], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2644, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6cf19ba7-219c-4ca7-9a65-7a4e53961338
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+at ✽.wait for logout button with "xpath" and "//a[@href='http://primusbank.qedgetech.com']"(./FeatureFiles/PrimusLogin.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;222&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">close browser (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:primusRunner.PrimusRunner@7188af83]" started-at="2024-08-12T10:39:19 IST" name="tearDownClass" finished-at="2024-08-12T10:39:19 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- primusRunner.PrimusRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

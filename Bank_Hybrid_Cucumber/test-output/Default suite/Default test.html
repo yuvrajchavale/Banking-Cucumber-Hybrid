@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 12 10:38:49 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29835 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='primusRunner.PrimusRunner.runScenario()'><b>runScenario</b><br>Test class: primusRunner.PrimusRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As admin i want to Login with Different Username & Password", "Validate Primus Banking Login"<br/>
+<a href="#Output-2027837674" onClick='toggleBox("Output-2027837674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2027837674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2027837674">
+<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 9s)</div><br/>
+<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div><br/>
+<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div><br/>
+<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div><br/>
+<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (PASSED : 0s)</div><br/>
+<div "result">close browser (PASSED : 1s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>primusRunner.PrimusRunner@7188af83</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='primusRunner.PrimusRunner.runScenario()'><b>runScenario</b><br>Test class: primusRunner.PrimusRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As admin i want to Login with Different Username & Password", "Validate Primus Banking Login"<br/>
+<a href="#Output-880908391" onClick='toggleBox("Output-880908391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-880908391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-880908391">
+<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div><br/>
+<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;222&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div><br/>
+<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div><br/>
+<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div><br/>
+<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: 
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6cf19ba7-219c-4ca7-9a65-7a4e53961338, findElement {value=//a[@href=&apos;http://primusbank.qedgetech.com&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2644, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6cf19ba7-219c-4ca7-9a65-7a4e53961338
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+	at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+	at ✽.wait for logout button with &quot;xpath&quot; and &quot;//a[@href=&apos;http://primusbank.qedgetech.com&apos;]&quot;(./FeatureFiles/PrimusLogin.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace880908391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace880908391'><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: 
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6cf19ba7-219c-4ca7-9a65-7a4e53961338, findElement {value=//a[@href=&apos;http://primusbank.qedgetech.com&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2644, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 6cf19ba7-219c-4ca7-9a65-7a4e53961338
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+	at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+	at ✽.wait for logout button with &quot;xpath&quot; and &quot;//a[@href=&apos;http://primusbank.qedgetech.com&apos;]&quot;(./FeatureFiles/PrimusLogin.feature:10)
+</pre></div></td>
+<td>8</td>
+<td>primusRunner.PrimusRunner@7188af83</td></tr>
+<tr>
+<td title='primusRunner.PrimusRunner.runScenario()'><b>runScenario</b><br>Test class: primusRunner.PrimusRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "As admin i want to Login with Different Username & Password", "Validate Primus Banking Login"<br/>
+<a href="#Output-393481646" onClick='toggleBox("Output-393481646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-393481646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-393481646">
+<div "result">launch browser with this url &quot;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x2F;&quot; (PASSED : 7s)</div><br/>
+<div "result">wait for text with &quot;xpath&quot; and &quot;(&#x2F;&#x2F;div[@class=&#x27;whitehead&#x27;])[1]&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;Admin&quot; with &quot;name&quot; and &quot;txtuId&quot; (PASSED : 0s)</div><br/>
+<div "result">enter the &quot;admin&quot; with &quot;name&quot; and &quot;txtPword&quot; (PASSED : 0s)</div><br/>
+<div "result">click on login button with &quot;name&quot; and &quot;login&quot; (PASSED : 0s)</div><br/>
+<div "result">wait for logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (FAILED : 0s)</div><br/>
+<div "result">click on logout button with &quot;xpath&quot; and &quot;&#x2F;&#x2F;a[@href=&#x27;http:&#x2F;&#x2F;primusbank.qedgetech.com&#x27;]&quot; (SKIPPED)</div><br/>
+<div "result">close browser (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: 
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14283711-6240-4e38-bbc2-8b9412bc8814, findElement {value=//a[@href=&apos;http://primusbank.qedgetech.com&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13492, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 14283711-6240-4e38-bbc2-8b9412bc8814
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+	at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+	at ✽.wait for logout button with &quot;xpath&quot; and &quot;//a[@href=&apos;http://primusbank.qedgetech.com&apos;]&quot;(./FeatureFiles/PrimusLogin.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace393481646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace393481646'><pre>org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler &quot;dismiss&quot;: 
+Build info: version: &apos;4.18.0&apos;, revision: &apos;b6bf9de7cc*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.11&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [14283711-6240-4e38-bbc2-8b9412bc8814, findElement {value=//a[@href=&apos;http://primusbank.qedgetech.com&apos;], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 129.0, moz:accessibilityChecks: false, moz:buildID: 20240801122119, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13492, moz:profile: C:\Users\uccha\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 14283711-6240-4e38-bbc2-8b9412bc8814
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at commonFunctions.BankFunctionLibrary.waitForElement(BankFunctionLibrary.java:29)
+	at primusStepDefination.PrimusStepDefination.wait_for_logout_button_with_and(PrimusStepDefination.java:39)
+	at ✽.wait for logout button with &quot;xpath&quot; and &quot;//a[@href=&apos;http://primusbank.qedgetech.com&apos;]&quot;(./FeatureFiles/PrimusLogin.feature:10)
+</pre></div></td>
+<td>8</td>
+<td>primusRunner.PrimusRunner@7188af83</td></tr>
+</table><p>
+</body>
+</html>
